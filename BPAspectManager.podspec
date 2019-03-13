@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 
   s.name         = "BPAspectManager"
   s.version      = "0.0.1"
-  s.summary      = "A short description of BPAspectManager."
+  s.summary      = "BPAspectManager."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
+  s.description  = <<-DESC 
+                      liuyang sp
                    DESC
 
   s.homepage     = "https://github.com/FengruiJian/BPAspectManager.git"
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "BPAspectManager", "BPAspectManager/BPAspectManagerss/**/*.{h,m}"
+  s.source_files  = "BPAspectManager", "BPAspectManager/classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
